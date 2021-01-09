@@ -12,7 +12,7 @@ import entities.Product;
 /*Chamando nosso método auxiliar na classe*/
 
 @SuppressWarnings("unused")
-public class Programa2 {
+public class ProgramaProduct {
 
 	public static void main(String[] args) throws SQLException {
 		// TODO Auto-generated method stub
@@ -27,7 +27,7 @@ public class Programa2 {
 			
 			Product p = instantiateProduct(rs);
 			
-			System.out.println(p);
+			System.out.println(p + "\r\n");
 	
 		}
 	}
