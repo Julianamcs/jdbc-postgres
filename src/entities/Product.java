@@ -111,9 +111,19 @@ public class Product {
 	 */
 	public void setImageUri(String imageUri) {
 		this.imageUri = imageUri;
+	}
+
+
+	/**
+	 * transformando em String para imprimir o main
+	 */
+	@Override
+	public String toString() {
+		return "Product [id=" + id + ", name=" + name + ", price=" + price + ", description=" + description
+				+ ", imageUri=" + imageUri + "]";
 	} 
 	
-	
+
 	
 
 }
